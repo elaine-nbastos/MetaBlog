@@ -1,0 +1,29 @@
+@import url("./styles/header.css");
+@import url("./styles/main.css");
+@import url("./styles/footer.css");
+
+:root{
+
+    --fonte-principal: "Work Sans";
+
+    --corDeFundo: #FFFFFF;
+    --corDeFundo-secundaria: repeating-linear-gradient(90deg, #000 10px, #696a75 10px);
+
+    --corDeFonte-primaria: #3b3c4a;
+    --corDeFonte-secundaria: #181a2a;
+    --corDeFonte-terciaria: #fff;
+
+    --corDeBotao-destaque: #4b6bfb;
+    --corDeFonte-botao-destaque: #fff;
+    --corDeFundo-botao: #f4f4f5;
+    --corDeFonte-botao: #a1a1aa;
+
+
+}
+
+body{
+    background-color: (var(--corDeFundo));
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
+}

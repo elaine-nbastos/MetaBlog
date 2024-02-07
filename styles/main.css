@@ -1,0 +1,104 @@
+.container{
+    height: 2748;
+    margin: 0 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 118px;
+    padding: 10px 35px;
+}
+
+.container__banner{
+    height: 260px;
+    margin: 10px;
+    padding: 180px 0;
+    background: url('../img/Image.svg') no-repeat;
+    border-radius: 12px;
+    position:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container__box__text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    gap:10px;
+
+}
+
+.container__banner__text{
+
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    color: var(--corDeFonte-terciaria);
+    border-radius: 12px;
+    padding: 0 40px 0 0 ;
+    margin-top: 24px;
+
+}
+
+.container__banner__text-title{
+    width: 720px;
+    height: 80px;    
+    font-weight: 600;
+    font-size: 36px;
+    color: var(--corDeFonte-terciaria);
+}
+
+.container__banner__text-title-emphasis{
+    width: 98px;
+    height: 28px;
+    border-style: none;
+    border-radius: 6px;
+    background-color: var(--corDeBotao-destaque);
+    color: var(--corDeFonte-terciaria);
+}
+
+.container__banner__text-title-emphasis::placeholder{
+    color: var(--corDeFonte-botao-destaque);
+}
+
+.container__banner__text-subtitle{
+    width: 290px;
+    height: 36px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    color: var(--corDeFonte-terciaria);
+    font-size: 14px;
+    gap:15px
+}
+
+.container__banner__text-image{
+    width: 36px;
+    align-items: end;
+    justify-content:left;
+}
+
+.container__banner__text-author{
+    width: 100px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: end;
+}
+
+.container__banner__text-subtitle-date{
+    width: 126px;
+    color: var(--corDeFonte-terciaria);
+    align-items:start;
+    justify-content: left;
+}
+
+/*cards*/
+
+.container__reports{
+    display: flex;
+    background: var(--corDeFundo-secundaria);
+}
+
