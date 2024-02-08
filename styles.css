@@ -4,10 +4,10 @@
 
 :root{
 
-    --fonte-principal: "Work Sans";
+    --fonte-principal: "Work Sans", sans-serif;
 
     --corDeFundo: #FFFFFF;
-    --corDeFundo-secundaria: repeating-linear-gradient(90deg, #000 10px, #696a75 10px);
+    --corDeFundo-secundaria: #b6b7f5;   
 
     --corDeFonte-primaria: #3b3c4a;
     --corDeFonte-secundaria: #181a2a;
@@ -26,4 +26,5 @@ body{
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 500;
+
 }

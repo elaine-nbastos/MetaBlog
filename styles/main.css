@@ -1,6 +1,6 @@
 .container{
+    width: max-content;
     height: 2748;
-    margin: 0 310px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -9,7 +9,7 @@
 }
 
 .container__banner{
-    height: 260px;
+
     margin: 10px;
     padding: 180px 0;
     background: url('../img/Image.svg') no-repeat;
@@ -99,6 +99,49 @@
 
 .container__reports{
     display: flex;
-    background: var(--corDeFundo-secundaria);
+    flex-direction: column;
+    justify-content: space-between;
+    background: repeating-linear-gradient(90deg,#ddddeb 40px 40px,#fff 15px 55px,#ddddeb 40px 150px);}
+
+.container__reports__themes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 10px;
+    gap: 16px;
 }
 
+.container__reports__themes-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 392px;
+    border-radius: 12px;
+    padding: 16px;
+    gap: 16px
+}
+
+.item-card{
+    width: 360px;
+    height: 240px;
+    border-radius: 6px;
+}
+
+.item-text{
+    width: fill;
+    padding: 8px;
+    
+}
+
+.text-title-emphasis{
+    color: #4b6bfb;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.text-title-subject{
+    color: 181a2a;
+    font-size: 24px;
+    font-weight: 700;
+    
+}

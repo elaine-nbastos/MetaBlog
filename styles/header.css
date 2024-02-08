@@ -1,48 +1,45 @@
 .navibar{
-    padding: 10px 35px;
-    display: flex;
-    justify-content: center;
+    padding: 0.65rem 2rem;
+    display: block;
 }
 
-.menu{
 
+.menu{
     display: flex;
     justify-content: space-between;
-    gap:118px; 
+
 }
 
 .menu__logo{
-    width: 158px;
-    height: 36px;
+    width: auto;
+    height: auto;
 }
 
 .menu__navigation{
-
-    height: 36px;
+    height: 3rem;
     display: flex;
     justify-content: space-between;
-    margin-left: 276px;
+
     align-items: center;
-    gap: 21px;
+    gap: .6rem;
 
 }
 
 .menu__lista{
-
-    height: 24px;
-    margin: 6px 0 6px 0;
+    height: 2rem;
+    margin: .3rem 0 .3rem 0;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     list-style-type: none;
-    gap: 40px;
+    gap: 2.5rem;
 }
 
 .menu__lista-item{
-    margin: 4px;
+    margin: .5rem;
     width: auto;
-    height: 24px;
-    font-size: 16px;
+    height: 2rem;
+    font-size: 1rem;
 }
 
 .menu__lista-item a{
@@ -51,19 +48,21 @@
 }
 
 .menu__botoes{
-    width: 254px;
+    width: 16rem;
+    height: 2rem;
     display: flex;
-    justify-content: end;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .menu__pesquisa{
     background-color: var(--corDeFundo-botao);
     border: none;
     color: var(--corDeFonte-botao);
-    width: 166px;
-    height: 20px;
+    width: 10rem;
+    height: 1.5rem;
     margin:4px;
-    padding: 8px 16px;
+    padding: .5rem 1rem;
     border-radius: 5px;
 }
 
@@ -91,5 +90,3 @@
     background: url("../img/Frame205.svg") no-repeat;
     background-position: 1em;
 }
-
-
