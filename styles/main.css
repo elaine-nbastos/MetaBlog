@@ -3,21 +3,20 @@
     height: 2748;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     gap: 118px;
-    padding: 10px 35px;
+    padding: 10px 0;
 }
 
 .container__banner{
-
-    margin: 10px;
-    padding: 180px 0;
+    margin:3rem;
+    padding: 350px 0 50px 0 ;
     background: url('../img/Image.svg') no-repeat;
     border-radius: 12px;
-    position:center;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .container__box__text{
@@ -29,16 +28,14 @@
 }
 
 .container__banner__text{
-
     height: 110px;
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
     color: var(--corDeFonte-terciaria);
     border-radius: 12px;
     padding: 0 40px 0 0 ;
     margin-top: 24px;
-
+    gap: 15px;
 }
 
 .container__banner__text-title{
@@ -56,6 +53,7 @@
     border-radius: 6px;
     background-color: var(--corDeBotao-destaque);
     color: var(--corDeFonte-terciaria);
+    
 }
 
 .container__banner__text-title-emphasis::placeholder{
@@ -65,12 +63,12 @@
 .container__banner__text-subtitle{
     width: 290px;
     height: 36px;
-    margin-left: 40px;
+    margin-left: 1px;
     display: flex;
     justify-content: space-between;
     color: var(--corDeFonte-terciaria);
     font-size: 14px;
-    gap:15px
+    gap:13px
 }
 
 .container__banner__text-image{
@@ -80,7 +78,7 @@
 }
 
 .container__banner__text-author{
-    width: 100px;
+    width: 110px;
     height: 36px;
     display: flex;
     flex-direction: row;
@@ -89,9 +87,11 @@
 }
 
 .container__banner__text-subtitle-date{
+    display: flex;
+    
     width: 126px;
     color: var(--corDeFonte-terciaria);
-    align-items:start;
+    align-items:end;
     justify-content: left;
 }
 
@@ -100,7 +100,7 @@
 .container__reports{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     background: repeating-linear-gradient(90deg,#ddddeb 40px 40px,#fff 15px 55px,#ddddeb 40px 150px);}
 
 .container__reports__themes{
