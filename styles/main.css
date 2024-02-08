@@ -137,11 +137,34 @@
     color: #4b6bfb;
     font-size: 14px;
     font-weight: 600;
+    margin-bottom: 1rem;
+    border-style: none;
+    background: transparent;
 }
 
 .text-title-subject{
-    color: 181a2a;
+    color: #181a2a;
     font-size: 24px;
     font-weight: 700;
-    
+}
+
+.text-subtitle{
+    margin-top: 2rem;
+    display: flex;
+    color: var(--corDeFonte-quaternaria);
+    gap: 1rem;
+}
+
+.container__more{
+    display: flex;
+    justify-content: center;
+}
+
+.container__button{
+    width: 8rem;
+    height: 48px;
+    background: transparent;
+    border-style:solid;
+    color: var(--corDeFonte-quaternaria);
+    border-radius:6px;
 }
